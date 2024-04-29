@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.card{
+    display:flex;
+    justify-content:center;
+    align-items:Center;
+    margin-top:11rem;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height:350px;
+    width:550px;
+    border-radius:20px;
+    -webkit-filter: drop-shadow(7px 10px 16px  #DADEFF);
+    background:white;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    height:350px;
+    border-radius:20px;
+    gap:20px;
+}
+
+.left h4{
+    margin-top:30px;
+    color:hsl(241, 100%, 89%);
+    font-size:16px;
+}
+
+.circle{
+    height:120px;
+    width:120px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.circle h1{
+    color:white;
+    font-size:40px;
+}
+
+.circle p{
+    color:hsl(241, 100%, 89%);
+}
+
+.left h2{
+    color:white;
+}
+
+.left p{
+      padding:0px 20px;
+      text-align:center;
+      color:hsl(241, 100%, 89%);
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+    padding:25px;
+}
+
+.right h3{
+    color:hsl(224, 30%, 27%);
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+    margin-top:5px;
+}
+
+.button{
+    height:40px;
+    width:220px;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    align-items:Center;
+    border-radius:5px;
+    background-color:orange;
+}
+
+.button img{
+    height:20px;
+    width:20px;
+}
+
+.sum_heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+}
+
+.right p{
+    color:hsl(224, 30%, 27%);
+}
+
+.red{
+    color:hsl(0, 100%, 67%);
+    background:#FFECEC;
+}
+
+.yellow{
+    color:hsl(39, 100%, 56%);
+    background:#FFF5E4;
+}
+
+.green{
+    color:hsl(166, 100%, 37%);
+    background:#E6F5F1;
+}
+
+.blue{
+    color:hsl(234, 85%, 45%);
+    background:#E7E9FB;
+}
+
+.continue{
+    margin:20px 10px;
+    height:40px;
+    width:200px;
+    border-radius:30px;
+    border:none;
+    background:hsl(224, 30%, 27%);
+    color:white;
+}
+
+.continue p{
+    color:hsl(221, 100%, 96%);
+    padding:10px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.continue :hover{
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius:30px;
+}
+
+.footer{
+    margin-top:50px;
+    text-align:center;
+    color:hsl(252, 100%, 67%);
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+    font-size:22px;
+}
+
+.footer img{
+    width:3%;
+    height:5%;
+    border-radius:50%;
+}
+
+.footer a{
+    color:hsla(256, 72%, 46%, 1);
+    text-decoration:none;
+}
+
+.footer a:hover{
+    color:hsl(224, 30%, 27%);
+    text-decoration:none;
+}
+
+@media (max-width: 376px){
+    .card{
+        margin:0px;
+    }
+    
+    .container{
+        display:grid;
+        width:375px;
+        grid-template-rows:1fr;
+        grid-template-columns:1fr;
+    }
+
+    .left{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:center;
+        height:300px;
+        width:375px;
+        border-radius:0px 0px 30px 30px;
+        gap:15px;
+    }
+
+    .left h4{
+        margin-top:25px;
+    }
+
+    .right{
+        padding-left:35px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        gap:20px;
+        background:white;
+    }
+
+    .buttons{
+        gap:15px;
+    }
+
+    .button{
+        height:40px;
+        width:300px;
+    }
+
+    .continue{
+        margin:10px 10px 0px 10px;
+        height:40px;
+        width:275px;
+        border-radius:30px;
+    }
+}
