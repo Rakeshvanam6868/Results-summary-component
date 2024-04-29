@@ -212,7 +212,7 @@ body{
         flex-direction:column;
         justify-content:flex-start;
         align-items:center;
-        height:400px;
+        height:375px;
         width:431px;
         border-radius:0px 0px 30px 30px;
         gap:30px;
@@ -229,7 +229,7 @@ body{
         justify-content:space-around;
         align-items:flex-start;
         gap:20px;
-        height:500px;
+        height:475px;
         background:white;
     }
 
