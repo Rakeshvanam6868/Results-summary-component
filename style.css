@@ -193,7 +193,7 @@ body{
     text-decoration:none;
 }
 
-@media (max-width: 250px){
+@media (width <= 431px){
     .card{
         margin:0px;
     }
