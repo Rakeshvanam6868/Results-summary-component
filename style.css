@@ -193,7 +193,7 @@ body{
     text-decoration:none;
 }
 
-@media (width <= 400px){
+@media (width <= 410px){
     .card{
         margin:0px;
     }
@@ -201,7 +201,6 @@ body{
     .container{
         display:grid;
         width:375px;
-        height:800px;
         grid-template-rows:1fr;
         grid-template-columns:1fr;
     }
