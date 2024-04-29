@@ -13,10 +13,11 @@ body{
 }
 
 .card{
+    margin-top:11rem;
     display:flex;
     justify-content:center;
     align-items:Center;
-    margin-top:11rem;
+    flex-direction:column;
 }
 
 .container{
@@ -192,7 +193,7 @@ body{
     text-decoration:none;
 }
 
-@media (max-width: 380px){
+@media (max-width: 400px){
     .card{
         margin:0px;
     }
