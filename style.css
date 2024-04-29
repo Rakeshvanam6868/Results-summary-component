@@ -201,6 +201,7 @@ body{
     .container{
         display:grid;
         width:375px;
+        height:800px;
         grid-template-rows:1fr;
         grid-template-columns:1fr;
     }
