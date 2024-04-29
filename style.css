@@ -193,16 +193,18 @@ body{
     text-decoration:none;
 }
 
-@media (width <= 410px){
+@media (width <= 431px){
     .card{
         margin:0px;
     }
     
     .container{
         display:grid;
-        width:375px;
+        width:431px;
         grid-template-rows:1fr;
         grid-template-columns:1fr;
+        margin:0px;
+        padding:0px;
     }
 
     .left{
@@ -210,10 +212,10 @@ body{
         flex-direction:column;
         justify-content:flex-start;
         align-items:center;
-        height:300px;
-        width:375px;
+        height:400px;
+        width:431px;
         border-radius:0px 0px 30px 30px;
-        gap:15px;
+        gap:20px;
     }
 
     .left h4{
@@ -236,11 +238,11 @@ body{
 
     .button{
         height:40px;
-        width:300px;
+        width:350px;
     }
 
     .continue{
-        margin:10px 10px 0px 10px;
+        margin:10px 10px 0px 30px;
         height:40px;
         width:275px;
         border-radius:30px;
